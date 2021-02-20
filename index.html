@@ -28,10 +28,8 @@
         width="100px"
       />
       <nav>
-        <div id="Hébergements">Hébergements</div>
-        <a href="#Hébergements">Hébergements</a>
-        <div id="Activités">Activités</div>
-        <a href="#Activités">Activités</a>
+        <a href="#Hébergements-à-Marseille">Hébergements</a>
+        <a href="#Activités-à-Marseille">Activités</a>
         <a href="#">S'inscrire</a>
       </nav>
     </header>
@@ -39,13 +37,20 @@
     <p>En plein centre ville ou en pleine nature</p>
     <form method="post" action="#.php">
       <p>
-        <input value="Marseille,France" name="recherche" id="recherche" />
+        <i class="fas fa-map-marker-alt"></i
+        ><input
+          type="text"
+          name="recherche"
+          id="recherche"
+          placeholder="Marseille,France"
+        />
         <input type="submit" value="Rechercher" />
       </p>
     </form>
     <form method="post" action="#.php">
       <p>
-        <label>Filtres</label> : <i class="fas fa-money-bill-wave"></i
+        <label for="Economique">Filtres</label> :
+        <i class="fas fa-money-bill-wave"></i
         ><input
           value="Economique"
           name="Economique"
@@ -74,28 +79,44 @@
           type="submit"
         />
       </p>
-      <p>Plus de 500 logements sont disponible dans cette ville</p>
+      <p>
+        <i class="fas fa-info"></i> Plus de 500 logements sont disponible dans
+        cette ville
+      </p>
+      <br />
     </form>
     <section>
-      <p>Hébergements à Marseille</p>
+      <h4>Hébergements à Marseille</h4>
+      <a name="Hébergements-à-Marseille"></a>
       <a href="images/hebergements/4_small/1.jpg"
         ><img src="images/hebergements/4_small/1mini.jpg" alt="Chambre"
       /></a>
+      <h5>Hôtel de la mer</h5>
+      <p>Nuit à partir de 46€</p>
       <a href="images/hebergements/4_small/2.jpg"
         ><img src="images/hebergements/4_small/2mini.jpg" alt="Chambre2"
       /></a>
+      <h5>Au coeur de l'eau Chambres d'hôtes</h5>
+      <p>Nuit à partir de 71€</p>
     </section>
+    <br />
     <aside>
-      <p>Les plus populaires</p>
+      <h4>Les plus populaires</h4>
       <a href="images/hebergements/4_small/3.jpg"
         ><img src="images/hebergements/4_small/3mini.jpg" alt="Chambre3"
       /></a>
+      <h5>Hôtel Le soleil du matin</h5>
+      <p>Nuit à partir de 128€</p>
       <a href="images/hebergements/4_small/4.jpg"
         ><img src="images/hebergements/4_small/4mini.jpg" alt="Chambre4"
       /></a>
+      <h5>Hôtel chez Amina</h5>
+      <p>Nuit à partir de 96€</p>
+      <br />
     </aside>
     <section>
-      <p>Activités à Marseille</p>
+      <h4>Activités à Marseille</h4>
+      <a name="Activités-à-Marseille"></a>
       <figure>
         <a href="images/activites/4_small/1.jpg"
           ><img src="images/activites/4_small/1mini.jpg" alt="Cathédrale" />
@@ -109,21 +130,21 @@
       </figure>
     </section>
     <footer>
-      <p>A propos</p>
+      <h4>A propos</h4>
       <ul>
-        <li>Fonctionnement du site</li>
-        <li>Conditions générales de vente</li>
-        <li>Données et confidentialité</li>
+        <a href="#"><li>Fonctionnement du site</li></a>
+        <a href="#"><li>Conditions générales de vente</li></a>
+        <a href="#"><li>Données et confidentialité</li></a>
       </ul>
-      <p>Nos hébérgements</p>
+      <h4>Nos hébérgements</h4>
       <ul>
-        <li>Charte qualité</li>
-        <li>Soumettre votre hotêl</li>
+        <a href="#"><li>Charte qualité</li></a>
+        <a href="#"><li>Soumettre votre hotêl</li></a>
       </ul>
-      <p>Assistance</p>
+      <h4>Assitance</h4>
       <ul>
-        <li>Centre d'aide</li>
-        <li>Nous contacter</li>
+        <a href="#"><li>Centre d'aide</li></a>
+        <a href="#"><li>Nous contacter</li></a>
       </ul>
     </footer>
   </body>
