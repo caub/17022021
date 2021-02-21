@@ -2,24 +2,6 @@
   margin: 10px;
   padding: 10px;
 }
-h1 {
-  font-family: "Raleway", sans-serif;
-}
-nav {
-  font-family: "Raleway", sans-serif;
-}
-p {
-  font-family: "Raleway", sans-serif;
-}
-h4{
-  font-family: "Raleway", sans-serif;
-}
-h5{
-  font-family: "Raleway", sans-serif;
-}
-figure{
-  font-family: "Raleway", sans-serif;
-}
-li{
+body {
   font-family: "Raleway", sans-serif;
 }
