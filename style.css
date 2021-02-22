@@ -1,3 +1,10 @@
+.logo {
+  display: flex;
+}
+.logo img {
+  width: 90px;
+  height: 90px;
+}
 body {
   font-family: "Raleway", sans-serif;
 }
@@ -10,14 +17,20 @@ nav ul {
 nav li {
   margin-right: 50px;
 }
-#Hébergements {
+.section1 {
   margin: 70px;
 }
-#Chambres1 img {
+.chambre img {
   border-radius: 10px;
 }
-#Chambres1 {
-  background-color: rgb(128, 128, 128, 0.1);
+.chambre {
   display: flex;
-  flex-direction: column;
+
+}
+.chambre2 img {
+  border-radius: 10px;
+}
+.chambre2 {
+  display: flex;
+
 }
