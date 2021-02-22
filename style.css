@@ -17,20 +17,4 @@ nav ul {
 nav li {
   margin-right: 50px;
 }
-.section1 {
-  margin: 70px;
-}
-.chambre img {
-  border-radius: 10px;
-}
-.chambre {
-  display: flex;
 
-}
-.chambre2 img {
-  border-radius: 10px;
-}
-.chambre2 {
-  display: flex;
-
-}
