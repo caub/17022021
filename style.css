@@ -17,9 +17,49 @@ nav ul {
 nav li {
   margin-right: 50px;
 }
-
-.coeur-eau {
+.cannebiere img {
+  width: 250px;
+}
+.hotel-port {
   width: 200px;
   display: flex;
   flex-direction: column;
+}
+.hotel-port img {
+  width: 250px;
+}
+section {
+  display: flex;
+  flex-direction: column;
+}
+.conteneur1 {
+  display: flex;
+}
+.hotel-soleil img {
+  width: 150px;
+}
+.coeur-eau img {
+  width: 150px;
+}
+.coeur-eau {
+  width: 200px;
+}
+.vieux-port img {
+  width: 250px;
+  height: 300px;
+}
+.fort img {
+  width: 200px;
+  height: 180px;
+}
+.conteneur3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.titre-popu {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
 }
