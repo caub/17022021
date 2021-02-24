@@ -18,7 +18,7 @@ nav li {
   margin-right: 50px;
 }
 .cannebiere img {
-  width: 250px;
+  width: 200px;
 }
 .hotel-port {
   width: 200px;
@@ -26,14 +26,44 @@ nav li {
   flex-direction: column;
 }
 .hotel-port img {
-  width: 250px;
+  width: 200px;
 }
-section {
-  display: flex;
-  flex-direction: column;
+.mouettes img {
+  width: 200px;
 }
+.hotel-mer img {
+  width: 200px;
+  height: 150px;
+}
+.panier img {
+  width: 200px;
+}
+.amina img {
+  width: 200px;
+  height: 150px;
+}
+
 .conteneur1 {
   display: flex;
+}
+.conteneur2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.conteneur3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.conteneurx {
+  display: flex;
+  flex-wrap: wrap;
+}
+.titre-popu {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
 }
 .hotel-soleil img {
   width: 150px;
@@ -44,6 +74,16 @@ section {
 .coeur-eau {
   width: 200px;
 }
+.bleu-blanc img {
+  width: 150px;
+  height: 150px;
+}
+.bleu-blanc {
+  width: 200px;
+}
+.conteneur4 {
+  display: flex;
+}
 .vieux-port img {
   width: 250px;
   height: 300px;
@@ -51,15 +91,4 @@ section {
 .fort img {
   width: 200px;
   height: 180px;
-}
-.conteneur3 {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  align-items: flex-end;
-}
-.titre-popu {
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
 }
