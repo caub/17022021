@@ -20,10 +20,19 @@ nav li {
 .cannebiere img {
   width: 200px;
 }
+.cannebiere {
+  margin: auto;
+  font-size: 0.8em;
+  background-color: white;
+  border: 5px white solid;
+  border-radius: 10px;
+}
 .hotel-port {
-  width: 200px;
-  display: flex;
-  flex-direction: column;
+  margin: auto;
+  font-size: 0.8em;
+  background-color: white;
+  border: 5px white solid;
+  border-radius: 10px;
 }
 .hotel-port img {
   width: 200px;
@@ -31,57 +40,82 @@ nav li {
 .mouettes img {
   width: 200px;
 }
+.mouettes {
+  margin: auto;
+  font-size: 0.8em;
+  background-color: white;
+  border: 5px white solid;
+  border-radius: 10px;
+}
 .hotel-mer img {
   width: 200px;
   height: 150px;
 }
+.hotel-mer {
+  margin: auto;
+  font-size: 0.8em;
+  background-color: white;
+  border: 5px white solid;
+  border-radius: 10px;
+}
 .panier img {
   width: 200px;
+}
+.panier {
+  margin: auto;
+  font-size: 0.8em;
+  background-color: white;
+  border: 5px white solid;
+  border-radius: 10px;
 }
 .amina img {
   width: 200px;
   height: 150px;
 }
-
+.amina {
+  margin: auto;
+  font-size: 0.8em;
+  background-color: white;
+  border: 5px white solid;
+  border-radius: 10px;
+}
 .conteneur1 {
+  width: 900px;
+  height: 600px;
   display: flex;
+  flex-wrap: wrap;
+  background-color: rgba(128, 128, 128, 0.3);
 }
 .conteneur2 {
   display: flex;
-  flex-wrap: wrap;
-}
-.conteneur3 {
-  display: flex;
   flex-direction: column;
-  justify-content: flex-end;
-  align-items: flex-end;
+  background-color: rgba(128, 128, 128, 0.3);
 }
 .conteneurx {
   display: flex;
-  flex-wrap: wrap;
-}
-.titre-popu {
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
 }
 .hotel-soleil img {
-  width: 150px;
-}
-.coeur-eau img {
-  width: 150px;
-}
-.coeur-eau {
   width: 200px;
 }
+.hotel-soleil {
+  display: flex;
+}
+.coeur-eau img {
+  width: 200px;
+}
+.coeur-eau {
+  width: 400px;
+  display: flex;
+}
 .bleu-blanc img {
-  width: 150px;
+  width: 200px;
   height: 150px;
 }
 .bleu-blanc {
-  width: 200px;
+  width: 400px;
+  display: flex;
 }
-.conteneur4 {
+.conteneur3 {
   display: flex;
 }
 .vieux-port img {
