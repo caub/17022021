@@ -19,9 +19,12 @@ nav li {
 }
 .cannebiere img {
   width: 200px;
+  height: 100px;
+  border-radius: 10px;
 }
 .cannebiere {
   margin: auto;
+  margin-top: 80px;
   font-size: 0.8em;
   background-color: white;
   border: 5px white solid;
@@ -29,6 +32,7 @@ nav li {
 }
 .hotel-port {
   margin: auto;
+  margin-top: 80px;
   font-size: 0.8em;
   background-color: white;
   border: 5px white solid;
@@ -36,12 +40,17 @@ nav li {
 }
 .hotel-port img {
   width: 200px;
+  height: 100px;
+  border-radius: 10px;
 }
 .mouettes img {
   width: 200px;
+  height: 100px;
+  border-radius: 10px;
 }
 .mouettes {
   margin: auto;
+  margin-top: 80px;
   font-size: 0.8em;
   background-color: white;
   border: 5px white solid;
@@ -49,10 +58,12 @@ nav li {
 }
 .hotel-mer img {
   width: 200px;
-  height: 150px;
+  height: 100px;
+  border-radius: 10px;
 }
 .hotel-mer {
   margin: auto;
+  margin-bottom: 80px;
   font-size: 0.8em;
   background-color: white;
   border: 5px white solid;
@@ -60,9 +71,12 @@ nav li {
 }
 .panier img {
   width: 200px;
+  height: 100px;
+  border-radius: 10px;
 }
 .panier {
   margin: auto;
+  margin-bottom: 80px;
   font-size: 0.8em;
   background-color: white;
   border: 5px white solid;
@@ -70,18 +84,29 @@ nav li {
 }
 .amina img {
   width: 200px;
-  height: 150px;
+  height: 100px;
+  border-radius: 10px;
 }
 .amina {
   margin: auto;
+  margin-bottom: 80px;
   font-size: 0.8em;
   background-color: white;
   border: 5px white solid;
   border-radius: 10px;
 }
+.afficher {
+  display: flex;
+  align-items: flex-end;
+}
+.hebergements {
+  flex: 1;
+  margin: 15px;
+}
 .conteneur1 {
-  width: 900px;
-  height: 600px;
+  width: 800px;
+  height: 620px;
+  border-radius: 10px;
   display: flex;
   flex-wrap: wrap;
   background-color: rgba(128, 128, 128, 0.3);
@@ -89,31 +114,52 @@ nav li {
 .conteneur2 {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  width: 400px;
+  border-radius: 10px;
   background-color: rgba(128, 128, 128, 0.3);
 }
 .conteneurx {
   display: flex;
+  justify-content: space-around;
 }
 .hotel-soleil img {
-  width: 200px;
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
 }
 .hotel-soleil {
+  height: 150px;
   display: flex;
+  font-size: 0.8em;
+  background-color: white;
+  border: 5px white solid;
+  border-radius: 10px;
 }
 .coeur-eau img {
-  width: 200px;
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
 }
 .coeur-eau {
-  width: 400px;
+  height: 150px;
+  font-size: 0.8em;
+  background-color: white;
+  border: 5px white solid;
+  border-radius: 10px;
   display: flex;
 }
 .bleu-blanc img {
-  width: 200px;
+  width: 150px;
   height: 150px;
+  border-radius: 10px;
 }
 .bleu-blanc {
-  width: 400px;
   display: flex;
+  font-size: 0.8em;
+  background-color: white;
+  border: 5px white solid;
+  border-radius: 10px;
 }
 .conteneur3 {
   display: flex;
