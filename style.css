@@ -1,12 +1,16 @@
 .logo {
-  display: flex;
+  position: relative;
+  padding-left: 30px;
 }
 .logo img {
-  width: 90px;
+  width: 100px;
   height: 90px;
 }
 body {
   font-family: "Raleway", sans-serif;
+}
+a:link {
+  text-decoration: none;
 }
 nav ul {
   list-style-type: none;
@@ -96,12 +100,20 @@ nav li {
   border-radius: 10px;
 }
 .afficher {
-  display: flex;
-  align-items: flex-end;
+  position: absolute;
+  bottom: -360px;
+  margin: 10px;
+  padding: 15px;
 }
-.hebergements {
-  flex: 1;
-  margin: 15px;
+.conteneur1 h4 {
+  margin: 30px;
+  position: absolute;
+}
+.fas.fa-star {
+  color: blue;
+}
+.far.fa-star {
+  color: grey;
 }
 .conteneur1 {
   width: 800px;
@@ -118,6 +130,13 @@ nav li {
   width: 400px;
   border-radius: 10px;
   background-color: rgba(128, 128, 128, 0.3);
+}
+.titre-popu {
+  padding-left: 40px;
+}
+.fa-chart-line {
+  position: absolute;
+  right: 60px;
 }
 .conteneurx {
   display: flex;
@@ -136,6 +155,9 @@ nav li {
   border: 5px white solid;
   border-radius: 10px;
 }
+.hotel-soleil figcaption {
+  padding-left: 20px;
+}
 .coeur-eau img {
   width: 150px;
   height: 150px;
@@ -143,11 +165,14 @@ nav li {
 }
 .coeur-eau {
   height: 150px;
+  display: flex;
   font-size: 0.8em;
   background-color: white;
   border: 5px white solid;
   border-radius: 10px;
-  display: flex;
+}
+.coeur-eau figcaption {
+  padding-left: 15px;
 }
 .bleu-blanc img {
   width: 150px;
@@ -161,6 +186,9 @@ nav li {
   border: 5px white solid;
   border-radius: 10px;
 }
+.bleu-blanc figcaption {
+  padding-left: 15px;
+}
 .conteneur3 {
   display: flex;
 }
@@ -171,4 +199,11 @@ nav li {
 .fort img {
   width: 200px;
   height: 180px;
+}
+.conteneur4 {
+  display: flex;
+  justify-content: space-around;
+}
+.conteneur4 ul {
+  list-style-type: none;
 }
