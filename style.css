@@ -6,6 +6,30 @@
   width: 100px;
   height: 90px;
 }
+.head-nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 50px;
+}
+.head-nav li {
+  margin: auto 30px;
+}
+.head-nav a:hover {
+  text-decoration: overline;
+  color: blue;
+}
+.filtres {
+  display: flex;
+}
+.filtres p {
+  margin: 20px 20px;
+  border: 2px grey solid;
+  border-radius: 10px;
+}
+.filtres h2 {
+  font-size: medium;
+}
 body {
   font-family: "Raleway", sans-serif;
 }
@@ -15,102 +39,26 @@ a:link {
 a:visited {
   color: black;
 }
-nav ul {
-  list-style-type: none;
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
-}
-nav li {
-  margin-right: 50px;
-}
-.cannebiere img {
-  width: 200px;
-  height: 100px;
-  border-radius: 10px;
-}
-.cannebiere {
-  margin: auto;
-  margin-top: 80px;
+.card {
+  margin: 15px auto;
   font-size: 0.8em;
   background-color: white;
   border: 5px white solid;
   border-radius: 10px;
 }
-.hotel-port {
-  margin: auto;
-  margin-top: 80px;
-  font-size: 0.8em;
-  background-color: white;
-  border: 5px white solid;
-  border-radius: 10px;
-}
-.hotel-port img {
+
+.card img {
   width: 200px;
   height: 100px;
-  border-radius: 10px;
-}
-.mouettes img {
-  width: 200px;
-  height: 100px;
-  border-radius: 10px;
-}
-.mouettes {
-  margin: auto;
-  margin-top: 80px;
-  font-size: 0.8em;
-  background-color: white;
-  border: 5px white solid;
-  border-radius: 10px;
-}
-.hotel-mer img {
-  width: 200px;
-  height: 100px;
-  border-radius: 10px;
-}
-.hotel-mer {
-  margin: auto;
-  margin-bottom: 80px;
-  font-size: 0.8em;
-  background-color: white;
-  border: 5px white solid;
-  border-radius: 10px;
-}
-.panier img {
-  width: 200px;
-  height: 100px;
-  border-radius: 10px;
-}
-.panier {
-  margin: auto;
-  margin-bottom: 80px;
-  font-size: 0.8em;
-  background-color: white;
-  border: 5px white solid;
-  border-radius: 10px;
-}
-.amina img {
-  width: 200px;
-  height: 100px;
-  border-radius: 10px;
-}
-.amina {
-  margin: auto;
-  margin-bottom: 80px;
-  font-size: 0.8em;
-  background-color: white;
-  border: 5px white solid;
   border-radius: 10px;
 }
 .afficher {
-  position: absolute;
-  bottom: -360px;
   margin: 10px;
   padding: 15px;
 }
-.conteneur1 h4 {
+.conteneur1 h2 {
+  font-size: large;
   margin: 30px;
-  position: absolute;
 }
 .fas.fa-star {
   color: blue;
@@ -120,11 +68,12 @@ nav li {
 }
 .conteneur1 {
   width: 800px;
-  height: 620px;
   border-radius: 10px;
+  background-color: #f2f2f2;
+}
+.conteneur {
   display: flex;
   flex-wrap: wrap;
-  background-color: #f2f2f2;
 }
 .conteneur2 {
   display: flex;
@@ -134,8 +83,9 @@ nav li {
   border-radius: 10px;
   background-color: #f2f2f2;
 }
-.titre-popu {
+.conteneur2 h2 {
   padding-left: 40px;
+  font-size: large;
 }
 .fa-chart-line {
   position: absolute;
@@ -145,100 +95,54 @@ nav li {
   display: flex;
   justify-content: space-around;
 }
-.hotel-soleil img {
+.card2 img {
   width: 150px;
   height: 150px;
   border-radius: 10px;
 }
-.hotel-soleil {
-  height: 150px;
+.card2 {
+  margin: 20px 10px;
   display: flex;
   font-size: 0.8em;
   background-color: white;
   border: 5px white solid;
   border-radius: 10px;
 }
-.hotel-soleil figcaption {
+.card-text {
   padding-left: 20px;
 }
-.coeur-eau img {
-  width: 150px;
-  height: 150px;
+.conteneur-active {
+  display: flex;
+  flex-wrap: wrap;
+}
+.active img {
+  width: 250px;
+  height: 200px;
   border-radius: 10px;
 }
-.coeur-eau {
-  height: 150px;
-  display: flex;
-  font-size: 0.8em;
+.active {
   background-color: white;
   border: 5px white solid;
   border-radius: 10px;
-}
-.coeur-eau figcaption {
-  padding-left: 15px;
-}
-.bleu-blanc img {
-  width: 150px;
-  height: 150px;
-  border-radius: 10px;
-}
-.bleu-blanc {
-  display: flex;
-  font-size: 0.8em;
-  background-color: white;
-  border: 5px white solid;
-  border-radius: 10px;
-}
-.bleu-blanc figcaption {
-  padding-left: 15px;
 }
 .conteneur3 {
-  display: flex;
+  height: 600px;
+  width: 900px;
 }
-.vieux-port img {
-  width: 250px;
-  height: 300px;
-  border-radius: 10px;
+.conteneur3 h2 {
+  font-size: medium;
 }
-.vieux-port {
-  background-color: white;
-  border: 5px white solid;
-  border-radius: 10px;
-}
-.fort img {
-  width: 200px;
-  height: 180px;
-}
-.frioul img {
-  width: 200px;
-  height: 100px;
-}
-.conteneur4 {
+.conteneur4 nav {
   display: flex;
   justify-content: space-around;
   background-color: #f2f2f2;
 }
-.a-propos {
-  display: flex;
-  flex-direction: column;
-}
-.a-propos h4 {
-  padding-left: 40px;
-}
-.nos-heberg {
-  display: flex;
-  flex-direction: column;
-}
-.nos-heberg h4 {
-  padding-left: 40px;
-}
-.assistance {
-  display: flex;
-  flex-direction: column;
-}
-.assistance h4 {
-  padding-left: 40px;
-}
-.conteneur4 ul {
+.foot-nav ul {
   list-style-type: none;
+  display: flex;
+  flex-direction: column;
+}
+.foot-nav h2 {
+  font-size: medium;
+  padding-left: 40px;
 }
