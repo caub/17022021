@@ -1,10 +1,22 @@
 .logo {
-  position: relative;
   margin-left: 30px;
 }
 .logo img {
   width: 100px;
   height: 90px;
+}
+header {
+  display: flex;
+}
+.head-nav {
+  flex: 1;
+}
+.head-nav a:hover {
+  padding: 30px;
+  display: inline-block;
+  box-sizing: border-box;
+  border-top: 1px solid blue;
+  color: blue;
 }
 .head-nav ul {
   list-style-type: none;
@@ -15,20 +27,61 @@
 .head-nav li {
   margin: auto 30px;
 }
-.head-nav a:hover {
-  text-decoration: overline;
-  color: blue;
+.titre-header {
+  margin-left: 30px;
+}
+.search {
+  margin-left: 30px;
+  display: flex;
+}
+.fa-map-marker-alt {
+  background-color: rgba(128, 128, 128, 0.4);
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  width: 20px;
+  text-align: center;
+}
+.site-search {
+  -webkit-appearance: none;
+  padding: 3px;
+  border: grey 2px solid;
+}
+.button1 {
+  padding: 8px;
+  color: white;
+  background-color: #0065fc;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.button2 {
+  border: 2px solid grey;
+  border-radius: 20px;
+  background-color: white;
+  font-weight: bold;
+  font-size: small;
+  margin: auto 20px;
+}
+.fa-money-bill-wave {
+  color: #0065fc;
+}
+.fa-child {
+  color: #0065fc;
+}
+.fa-heart {
+  color: #0065fc;
+}
+.fa-dog {
+  color: #0065fc;
 }
 .filtres {
   display: flex;
 }
-.filtres p {
-  margin: 20px 20px;
-  border: 2px grey solid;
-  border-radius: 10px;
-}
 .filtres h2 {
   font-size: medium;
+  margin-left: 30px;
+}
+.info {
+  margin-left: 30px;
 }
 body {
   font-family: "Raleway", sans-serif;
@@ -121,10 +174,20 @@ a:visited {
   border-radius: 10px;
 }
 .active {
-  background-color: white;
-  border: 5px white solid;
+  margin: auto 10px;
+  position: relative;
+  display: inline-block;
+  margin: 20px auto;
+  box-shadow: 1px 1px 2px black;
   border-radius: 10px;
 }
+.titre-active {
+  position: absolute;
+  bottom: 0px;
+  background: white;
+  width: 100%;
+}
+
 .conteneur3 {
   height: 600px;
   width: 900px;
