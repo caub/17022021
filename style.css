@@ -11,9 +11,11 @@ header {
 .head-nav {
   flex: 1;
 }
-.head-nav a:hover {
+.head-nav a {
   padding: 30px;
   display: inline-block;
+}
+.head-nav a:hover {
   box-sizing: border-box;
   border-top: 1px solid blue;
   color: blue;
@@ -22,29 +24,28 @@ header {
   list-style-type: none;
   display: flex;
   justify-content: flex-end;
-  margin-right: 50px;
+  margin: 0px;
 }
-.head-nav li {
-  margin: auto 30px;
-}
-.titre-header {
-  margin-left: 30px;
+main {
+  margin: 0 30px;
+  max-width: 100%;
 }
 .search {
-  margin-left: 30px;
   display: flex;
 }
 .fa-map-marker-alt {
-  background-color: rgba(128, 128, 128, 0.4);
+  background-color: rgba(128, 128, 128, 0.3);
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
-  width: 20px;
+  width: 30px;
   text-align: center;
+
 }
 .site-search {
   -webkit-appearance: none;
   padding: 3px;
   border: grey 2px solid;
+  margin: 0px;
 }
 .button1 {
   padding: 8px;
@@ -52,6 +53,8 @@ header {
   background-color: #0065fc;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
+  margin: 0px;
+  border: 0px;
 }
 .button2 {
   border: 2px solid grey;
@@ -63,15 +66,31 @@ header {
 }
 .fa-money-bill-wave {
   color: #0065fc;
+  background-color: rgba(95, 180, 255, 0.4);
+  border-radius: 15px;
+  padding: 7px;
+  margin-right: 7px;
 }
 .fa-child {
   color: #0065fc;
+  background-color: rgba(95, 180, 255, 0.4);
+  border-radius: 15px;
+  padding: 7px;
+  margin-right: 7px;
 }
 .fa-heart {
   color: #0065fc;
+  background-color: rgba(95, 180, 255, 0.4);
+  border-radius: 15px;
+  padding: 7px;
+  margin-right: 7px;
 }
 .fa-dog {
   color: #0065fc;
+  background-color: rgba(95, 180, 255, 0.4);
+  border-radius: 15px;
+  padding: 7px;
+  margin-right: 7px;
 }
 .filtres {
   display: flex;
@@ -85,6 +104,7 @@ header {
 }
 body {
   font-family: "Raleway", sans-serif;
+  margin: 0px;
 }
 a:link {
   text-decoration: none;
@@ -166,7 +186,15 @@ a:visited {
 }
 .conteneur-active {
   display: flex;
-  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.conteneur-active2 {
+  display: flex;
+  flex-direction: column;
+}
+.conteneur-active3 {
+  display: flex;
+  flex-direction: column;
 }
 .active img {
   width: 250px;
@@ -174,22 +202,13 @@ a:visited {
   border-radius: 10px;
 }
 .active {
-  margin: auto 10px;
-  position: relative;
-  display: inline-block;
-  margin: 20px auto;
-  box-shadow: 1px 1px 2px black;
   border-radius: 10px;
 }
 .titre-active {
-  position: absolute;
-  bottom: 0px;
-  background: white;
-  width: 100%;
 }
 
 .conteneur3 {
-  height: 600px;
+  height: 800px;
   width: 900px;
 }
 .conteneur3 h2 {
