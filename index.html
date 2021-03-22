@@ -38,29 +38,28 @@
         <p>En plein centre ville ou en pleine nature</p>
       </div>
       <div class="search">
-        <i class="fas fa-map-marker-alt"></i>
+        <i class="fas fa-map-marker-alt" role="img"></i>
         <input
           type="search"
           class="site-search"
           name="site-search"
           placeholder="Marseille, France"
         />
-        <button type="button" class="button1">Rechercher</button>
+        <button type="button">Rechercher</button>
       </div>
 
       <div class="filtres">
         <h2>Filtres</h2>
-        <button type="button" class="button2">
+        <button type="button">
           <i class="fas fa-money-bill-wave"></i>Economique
         </button>
-
-        <button type="button" class="button2">
+        <button type="button">
           <i class="fas fa-child"></i>Familial
         </button>
-        <button type="button" class="button2">
+        <button type="button">
           <i class="fas fa-heart"></i>Romantique
         </button>
-        <button type="button" class="button2">
+        <button type="button">
           <i class="fas fa-dog"></i>Animaux autorisés
         </button>
       </div>
@@ -230,95 +229,70 @@
       <section>
         <div class="conteneur3">
           <h2 id="Activites">Activités à Marseille</h2>
-          <div class="conteneur-active">
-            <div class="conteneur-active2">
-              <article class="active">
-                <a href="#"
-                  ><img src="images/activites/4_small/6.jpg" alt="Vieux port" />
-                </a>
-                <div class="titre-active"><p>Vieux port</p></div>
-              </article>
-              <article class="active">
-                <a href="#"
-                  ><img
-                    src="images/activites/4_small/5.jpg"
-                    alt="Fort de Pomègues"
-                  />
-                </a>
-                <div class="titre-active"><p>Fort de Pomègues</p></div>
-              </article>
-              <article class="active">
-                <a href="#"
-                  ><img
-                    src="images/activites/4_small/2.jpg"
-                    alt="Île du frioul"
-                  />
-                </a>
-                <div class="titre-active"><p>Île du Frioul</p></div>
-              </article>
-            </div>
-            <div class="conteneur-active3">
-              <article class="active">
-                <a href="#"
-                  ><img
-                    src="images/activites/4_small/3.jpg"
-                    alt="Parc National des Calanques"
-                  />
-                </a>
-                <div class="titre-active">
-                  <p>Parc National des Calanques</p>
-                </div>
-              </article>
-              <article class="active">
-                <a href="#"
-                  ><img
-                    src="images/activites/4_small/1.jpg"
-                    alt="Notre-Dame-de-la-Garde"
-                  />
-                </a>
-                <div class="titre-active"><p>Notre-Dame-de-la-Garde</p></div>
-              </article>
-              <article class="active">
-                <a href="#"
-                  ><img
-                    src="images/activites/4_small/4.jpg"
-                    alt="Parc LongChamp"
-                  />
-                </a>
-                <div class="titre-active"><p>Parc LongChamp</p></div>
-              </article>
-            </div>
-          </div>
+          <ul>
+            <li>
+              <a href="#">
+                <img src="images/activites/4_small/6.jpg" alt="Vieux port" />
+                <h4>Vieux port</h4>
+              </a>
+            </li>
+            <li>
+              <a href="#" style="flex:2">
+                <img src="images/activites/4_small/5.jpg" alt="Fort de Pomègues" />
+                <h4>Fort de Pomègues</h4>
+              </a>
+              <a href="#">
+                <img src="images/activites/4_small/2.jpg" alt="Île du frioul" />
+                <h4>Île du Frioul</h4>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="images/activites/4_small/3.jpg" alt="Parc National des Calanques" />
+                <h4>Parc National des Calanques</h4>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="images/activites/4_small/1.jpg" alt="Notre-Dame-de-la-Garde" />
+                <h4>Notre-Dame-de-la-Garde</h4>
+              </a>
+              <a href="#">
+                <img src="images/activites/4_small/4.jpg" alt="Parc LongChamp" />
+                <h4>Parc LongChamp</h4>
+              </a>
+            </li>
+          </ul>
         </div>
       </section>
-      <footer>
-        <div class="conteneur4">
-          <nav>
-            <div class="foot-nav">
-              <h2>A propos</h2>
-              <ul>
-                <li><a href="#">Fonctionnement du site</a></li>
-                <li><a href="#">Conditions générales de vente</a></li>
-                <li><a href="#">Données et confidentialité</a></li>
-              </ul>
-            </div>
-            <div class="foot-nav">
-              <h2>Nos hébérgements</h2>
-              <ul>
-                <li><a href="#">Charte qualité</a></li>
-                <li><a href="#">Soumettre votre hotêl</a></li>
-              </ul>
-            </div>
-            <div class="foot-nav">
-              <h2>Assitance</h2>
-              <ul>
-                <li><a href="#">Centre d'aide</a></li>
-                <li><a href="#">Nous contacter</a></li>
-              </ul>
-            </div>
-          </nav>
-        </div>
-      </footer>
     </main>
+    <footer>
+      <div class="conteneur4">
+        <nav>
+          <div class="foot-nav">
+            <h2>A propos</h2>
+            <ul>
+              <li><a href="#">Fonctionnement du site</a></li>
+              <li><a href="#">Conditions générales de vente</a></li>
+              <li><a href="#">Données et confidentialité</a></li>
+            </ul>
+          </div>
+          <div class="foot-nav">
+            <h2>Nos hébérgements</h2>
+            <ul>
+              <li><a href="#">Charte qualité</a></li>
+              <li><a href="#">Soumettre votre hotêl</a></li>
+            </ul>
+          </div>
+          <div class="foot-nav">
+            <h2>Assitance</h2>
+            <ul>
+              <li><a href="#">Centre d'aide</a></li>
+              <li><a href="#">Nous contacter</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </footer>
   </body>
 </html>
