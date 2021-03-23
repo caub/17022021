@@ -4,6 +4,7 @@
 .logo img {
   width: 100px;
   height: 90px;
+  object-fit: contain;
 }
 header {
   display: flex;
@@ -33,21 +34,16 @@ main {
 .search {
   display: flex;
 }
-.fa-map-marker-alt {
-  background-color: rgba(128, 128, 128, 0.3);
+.search [role="img"] {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #8883;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
   width: 30px;
-  text-align: center;
-
 }
-.site-search {
-  -webkit-appearance: none;
-  padding: 3px;
-  border: grey 2px solid;
-  margin: 0px;
-}
-.button1 {
+.search button {
   padding: 8px;
   color: white;
   background-color: #0065fc;
@@ -56,51 +52,60 @@ main {
   margin: 0px;
   border: 0px;
 }
-.button2 {
-  border: 2px solid grey;
+
+.site-search {
+  -webkit-appearance: none;
+  padding: 6px 12px;
+  border: #aaa4 solid 1px;
+  margin: 0px;
+}
+
+.filtres {
+  display: flex;
+  margin-top: 1rem;
+}
+.filtres h2 {
+  font-size: medium;
+}
+.filtres > button {
+  border: 2px solid #aaa6;
   border-radius: 20px;
   background-color: white;
   font-weight: bold;
   font-size: small;
-  margin: auto 20px;
+  margin: 0 8px;
+  height: 2.4rem;
+  padding-left: 2.8rem;
+  position: relative;
+  cursor: pointer;
+
 }
-.fa-money-bill-wave {
+.filtres > button > i {
   color: #0065fc;
-  background-color: rgba(95, 180, 255, 0.4);
-  border-radius: 15px;
-  padding: 7px;
-  margin-right: 7px;
-}
-.fa-child {
-  color: #0065fc;
-  background-color: rgba(95, 180, 255, 0.4);
-  border-radius: 15px;
-  padding: 7px;
-  margin-right: 7px;
-}
-.fa-heart {
-  color: #0065fc;
-  background-color: rgba(95, 180, 255, 0.4);
-  border-radius: 15px;
-  padding: 7px;
-  margin-right: 7px;
-}
-.fa-dog {
-  color: #0065fc;
-  background-color: rgba(95, 180, 255, 0.4);
-  border-radius: 15px;
-  padding: 7px;
-  margin-right: 7px;
-}
-.filtres {
-  display: flex;
-}
-.filtres h2 {
-  font-size: medium;
-  margin-left: 30px;
+  background-color: #deebff;
+  border-radius: 50%;
+  position: absolute;
+  top: -2px;
+  bottom: -2px;
+  left: -2px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.4rem;
 }
 .info {
   margin-left: 30px;
+}
+.info .fa-info {
+  border-radius: 50%;
+  border: #0004 solid 1px;
+  width: 1.4rem;
+  height: 1.4rem;
+  color: #0065fc;
+  font-size: .7rem;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
 }
 body {
   font-family: "Raleway", sans-serif;
@@ -133,10 +138,10 @@ a:visited {
   font-size: large;
   margin: 30px;
 }
-.fas.fa-star {
+.card .fas.fa-star {
   color: blue;
 }
-.far.fa-star {
+.card .far.fa-star {
   color: grey;
 }
 .conteneur1 {
@@ -155,14 +160,15 @@ a:visited {
   width: 400px;
   border-radius: 10px;
   background-color: #f2f2f2;
+  position: relative;
 }
 .conteneur2 h2 {
   padding-left: 40px;
   font-size: large;
 }
-.fa-chart-line {
+.conteneur2 h2 > i {
   position: absolute;
-  right: 60px;
+  right: 50px;
 }
 .conteneurx {
   display: flex;
@@ -184,36 +190,54 @@ a:visited {
 .card-text {
   padding-left: 20px;
 }
-.conteneur-active {
-  display: flex;
-  justify-content: space-between;
-}
-.conteneur-active2 {
-  display: flex;
-  flex-direction: column;
-}
-.conteneur-active3 {
-  display: flex;
-  flex-direction: column;
-}
-.active img {
-  width: 250px;
-  height: 200px;
-  border-radius: 10px;
-}
-.active {
-  border-radius: 10px;
-}
-.titre-active {
-}
 
 .conteneur3 {
-  height: 800px;
-  width: 900px;
+  margin: 40px 30px;
 }
 .conteneur3 h2 {
-  font-size: medium;
+  font-size: 1.4rem;
 }
+.conteneur3 ul {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  height: 600px;
+}
+.conteneur3 ul li {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 0;
+}
+.conteneur3 ul li + li {
+  margin-left: 2rem;
+}
+.conteneur3 ul li a {
+  border-radius: 20px;
+  color: inherit;
+  text-decoration: none;
+  display: flex;
+  flex: 1;
+  max-height: 100%;
+  box-shadow: 0px 2px 5px 4px #aaa3;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+}
+.conteneur3 ul li a + a {
+  margin-top: 2rem;
+}
+
+.conteneur3 ul a img {
+  flex: 1;
+  object-fit: cover;
+  height: auto;
+  max-height: calc(100% - 62px);
+  max-width: 100%;
+}
+.conteneur3 ul a h4 {
+  padding: 0 1rem;
+}
+
 .conteneur4 nav {
   display: flex;
   justify-content: space-around;
